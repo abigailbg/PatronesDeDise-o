@@ -1,0 +1,17 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Guitarra', 'x':580, 'y':200, 'width':90, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'GuitarraSencilla', 'x':350, 'y':303, 'width':170, 'height':64, 'attrs': '', 'meths': 'tocar'}
+{'type':'umlshape', 'id':'GuitarraAcustica', 'x':540, 'y':504, 'width':170, 'height':64, 'attrs': '', 'meths': 'tocar'}
+{'type':'umlshape', 'id':'GuitarraElectrica', 'x':117, 'y':17, 'width':180, 'height':80, 'attrs': '', 'meths': 'agudo|grave'}
+{'type':'umlshape', 'id':'GuitarraElectricaAdapter', 'x':86, 'y':161, 'width':250, 'height':106, 'attrs': '_guitarraelectrica', 'meths': 'tocar|__init__'}
+{'type':'umlshape', 'id':'Concierto', 'x':160, 'y':476, 'width':100, 'height':122, 'attrs': 'steven|hector|saul', 'meths': '__init__'}
+{'type':'umlshape', 'id':'ABC', 'x':605, 'y':102, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'GuitarraSencilla_to_Guitarra', 'source':'GuitarraSencilla', 'target':'Guitarra', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Guitarra_to_ABC', 'source':'Guitarra', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GuitarraElectricaAdapter_to_Guitarra', 'source':'GuitarraElectricaAdapter', 'target':'Guitarra', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GuitarraAcustica_to_Guitarra', 'source':'GuitarraAcustica', 'target':'Guitarra', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GuitarraElectricaAdapter_to_Concierto', 'source':'GuitarraElectricaAdapter', 'target':'Concierto', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'GuitarraSencilla_to_Concierto', 'source':'GuitarraSencilla', 'target':'Concierto', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'GuitarraElectrica_to_GuitarraElectricaAdapter', 'source':'GuitarraElectrica', 'target':'GuitarraElectricaAdapter', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'GuitarraAcustica_to_Concierto', 'source':'GuitarraAcustica', 'target':'Concierto', 'uml_edge_type': 'composition'}

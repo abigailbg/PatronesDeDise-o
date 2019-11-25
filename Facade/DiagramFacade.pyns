@@ -1,0 +1,7 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'MenuFonda', 'x':460, 'y':192, 'width':100, 'height':122, 'attrs': '_submenu_1|_submenu_2', 'meths': 'tipos|__init__'}
+{'type':'umlshape', 'id':'Submenu1', 'x':357, 'y':377, 'width':90, 'height':80, 'attrs': '', 'meths': 'clasico1|especial2'}
+{'type':'umlshape', 'id':'Submenu2', 'x':591, 'y':375, 'width':90, 'height':80, 'attrs': '', 'meths': 'clasico1|especial2'}
+{'type':'edge', 'id':'Submenu1_to_MenuFonda', 'source':'Submenu1', 'target':'MenuFonda', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Submenu2_to_MenuFonda', 'source':'Submenu2', 'target':'MenuFonda', 'uml_edge_type': 'composition'}

@@ -1,0 +1,12 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Peliculas', 'x':255, 'y':98, 'width':100, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Usuario', 'x':91, 'y':98, 'width':80, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'AlbumPeliculas', 'x':230, 'y':235, 'width':150, 'height':138, 'attrs': '_children', 'meths': 'reproduccion|add|remove|__init__'}
+{'type':'umlshape', 'id':'Movie', 'x':440, 'y':80, 'width':106, 'height':64, 'attrs': '', 'meths': 'reproduccion'}
+{'type':'umlshape', 'id':'ABC', 'x':285, 'y':33, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Peliculas_to_ABC', 'source':'Peliculas', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'AlbumPeliculas_to_Peliculas', 'source':'AlbumPeliculas', 'target':'Peliculas', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Usuario_to_Peliculas', 'source':'Usuario', 'target':'Peliculas', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Movie_to_Peliculas', 'source':'Movie', 'target':'Peliculas', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Peliculas_to_AlbumPeliculas', 'source':'Peliculas', 'target':'AlbumPeliculas', 'uml_edge_type': 'composition'}
